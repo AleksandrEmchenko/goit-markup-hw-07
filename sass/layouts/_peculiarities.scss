@@ -1,0 +1,50 @@
+.peculiarities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__icons{
+    width: 70px;
+    height: 70px;}
+
+    &__item{
+    margin-right: 30px;
+    width: calc((100% - 90px) / 4);}
+
+    &__item:nth-child(4n){
+    margin-right: 0;}
+
+    &__sub-title{
+    margin-bottom: 10px;
+
+    color: $title-color;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+    &__text{
+    line-height: 1.7;
+    letter-spacing: 0.03em;}
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+.title{
+    margin-bottom: 50px;
+
+    color: $title-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}

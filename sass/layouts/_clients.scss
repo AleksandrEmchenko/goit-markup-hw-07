@@ -1,0 +1,22 @@
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+
+    transition-property: border, fill;
+    @extend %transition;
+    
+    &:hover, &:focus{
+    border: 1px solid $accent-color;
+    fill: $accent-color;}
+}

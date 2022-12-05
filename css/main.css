@@ -711,10 +711,10 @@ header {
   transition-property: background-color;
 }
 
-.social-list__icon {
+.team .social-list__icon {
   fill: #AFB1B8;
 }
-.social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
+.social-list__link:hover .team .social-list__icon, .social-list__link:focus .team .social-list__icon {
   fill: #ffffff;
 }
 
@@ -779,8 +779,11 @@ header {
   margin-bottom: 0;
   padding: 0;
 }
-.footer .social-link {
+.footer .social-list__link {
   fill: #ffffff;
+}
+.footer .social-list__item {
+  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer .social-link:hover, .footer .social-link:focus {

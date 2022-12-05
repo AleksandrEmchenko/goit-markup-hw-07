@@ -17,11 +17,14 @@
     width: 206px;
     margin-bottom: 0;
     padding: 0;}
-   
-    & .social-link{
-    fill: $secondary-title-color;
-    background-color: rgba(255, 255, 255, 0.1);}
 
+    & .social-list__link{
+    fill: $secondary-title-color;}
+
+    & .social-list__item{
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);}
+   
     & .social-link:hover,
     & .social-link:focus{
     background-color: $accent-color;}

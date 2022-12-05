@@ -714,7 +714,9 @@ header {
 .team .social-list__icon {
   fill: #AFB1B8;
 }
-.social-list__link:hover .team .social-list__icon, .social-list__link:focus .team .social-list__icon {
+
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: #ffffff;
 }
 

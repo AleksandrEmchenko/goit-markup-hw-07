@@ -23,15 +23,16 @@
 
 .team .social-list__icon{
     fill: #AFB1B8;
-
-    .social-list__link:hover &,
-    .social-list__link:focus &{
-    fill: $secondary-title-color;
 }
+
+    .social-list__link:hover .social-list__icon,
+    .social-list__link:focus .social-list__icon{
+    fill: $secondary-title-color;
 }
 
 .social-list__link:hover,
 .social-list__link:focus{
     background-color: $accent-color;
+    
 }
 
